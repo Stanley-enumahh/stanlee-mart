@@ -4,12 +4,12 @@ import { CiSearch } from "react-icons/ci";
 import { FaRegUser } from "react-icons/fa";
 import { BsCart3 } from "react-icons/bs";
 import { Link } from "react-router-dom";
-// import { useContext } from "react";
-// import { ShopContext } from "../context/shopContext";
+import { useContext } from "react";
+import { ShopContext } from "../context/shopContext";
 
 export default function Navbar() {
   const [Drop, setDrop] = useState(false);
-  // const { getTotalCartItems } = useContext(ShopContext);
+  const { getTotalCartItems } = useContext(ShopContext);
 
   return (
     <div className="z-50 backdrop-blur fixed top-0 flex flex-row justify-between md:w-[85%] w-[90%] mt-3">
@@ -51,7 +51,7 @@ export default function Navbar() {
               <BsCart3 size={20} className="md:text-blue-200 text-blue-600" />
               <span className="md:flex hidden">cart</span>
               <span className="absolute w-2 h-2 flex items-center justify-center md:right-[-12px] right-[-8px] md:top-[-10px] top-[-7px] p-2 bg-red-500 rounded text-xs text-white">
-                {/* {getTotalCartItems()} */}
+                {getTotalCartItems()}
               </span>
             </button>
           </Link>

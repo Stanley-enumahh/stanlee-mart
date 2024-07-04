@@ -8,14 +8,14 @@ import Fashion from "./components/fashion";
 
 function App() {
   return (
-    <>
+    <div className="overflow-hidden w-full flex flex-col justify-center items-center">
       <Navbar />
       <Hero />
       <Phones />
       <Fashion />
       <Review />
       <Footer />
-    </>
+    </div>
   );
 }
 
