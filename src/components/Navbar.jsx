@@ -59,7 +59,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`drop-down absolute dark:bg-[#343434] bg-white md:top-16 top-12 md:p-6 p-3 border border-blue-200 rounded shadow-lg md:w-[300px] w-[180px] text-sm ${
+        className={`drop-down absolute bg-white md:top-16 top-12 md:p-6 p-3 border border-blue-200 rounded shadow-lg md:w-[300px] w-[180px] text-sm ${
           Drop ? "flex" : "hidden"
         }`}
       >
@@ -81,9 +81,6 @@ export default function Navbar() {
           <li className="md:hidden flex hover:text-blue-400 duration-150 transition-all border-b border-blue-200">
             <Link>sign Up/sign In</Link>
           </li>
-          <button className=" hover:text-blue-400 duration-150 transition-all border-b border-blue-200">
-            Dark mode
-          </button>
           <li className="hover:text-blue-400 duration-150 transition-all border-b border-blue-200">
             <Link>Account</Link>
           </li>
