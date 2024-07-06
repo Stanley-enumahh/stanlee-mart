@@ -37,12 +37,10 @@ export default function Navbar() {
         </div>
 
         <div className="select-none md:flex hidden">
-          <Link to="/sign-in">
-            <button className="shadow-sm flex flex-row items-center gap-1 text-sm bg-white hover:bg-blue-300 duration-150 transition-all px-2 py-2 text-gray-600 rounded">
-              {" "}
-              <FaRegUser className="text-blue-200" /> sign Up/sign In
-            </button>
-          </Link>
+          <button className="shadow-sm flex flex-row items-center gap-1 text-sm bg-white hover:bg-blue-300 duration-150 transition-all px-2 py-2 text-gray-600 rounded">
+            {" "}
+            <FaRegUser className="text-blue-200" /> logout
+          </button>
         </div>
 
         <div className="select-none">

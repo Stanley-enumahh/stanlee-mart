@@ -5,7 +5,9 @@ import "./index.css";
 import App from "./App";
 import { ShopContextProvider } from "./context/shopContext";
 import Cart from "./components/cart";
-
+import Login from "./components/registration/login";
+import Register from "./components/registration/signUp";
+import { Authprovider } from "./context/Authcontext/authContext";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <Cart />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/signup",
+    element: <Register />,
   },
 ]);
 
