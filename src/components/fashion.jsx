@@ -43,7 +43,10 @@ export default function Fashion() {
   };
 
   return (
-    <div className=" w-[90%] m-auto h-[350px] md:mt-10 mt-10 mb-14">
+    <div
+      id="fashion"
+      className=" w-[90%] m-auto h-[350px] md:mt-10 mt-10 mb-14"
+    >
       <h1 className="mb-6 pb-2 font-bold md:text-lg text-sm border-b-2 border-blue-300 w-fit">
         Grab the best deal on{" "}
         <span className="text-blue-500">smart gadgets</span>

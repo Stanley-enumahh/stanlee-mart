@@ -20,7 +20,10 @@ export default function Hero() {
   };
 
   return (
-    <div className="banner relative overflow-hidden w-[90%] rounded-md m-auto h-[350px] bg-[#084c61] md:mt-28 mt-20 shadow-lg">
+    <div
+      id="top"
+      className="banner relative overflow-hidden w-[90%] rounded-md m-auto h-[350px] bg-[#084c61] md:mt-28 mt-20 shadow-lg"
+    >
       <div className="w-full h-full">
         <Slider {...settings}>
           {HeroData.map((HeroData, index) => {
