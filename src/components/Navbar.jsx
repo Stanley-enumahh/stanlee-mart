@@ -6,8 +6,8 @@ import { BsCart3 } from "react-icons/bs";
 import { Link } from "react-scroll";
 import { useContext } from "react";
 import { ShopContext } from "../context/shopContext";
-import { HashLink } from "react-router-hash-link";
 
+import { HashLink } from "react-router-hash-link";
 export default function Navbar() {
   const [Drop, setDrop] = useState(false);
   const { getTotalCartItems } = useContext(ShopContext);
@@ -47,7 +47,7 @@ export default function Navbar() {
         </div>
 
         <div className="select-none">
-          <Link to="/cart" className="relative flex flex-row">
+          <HashLink to="/cart" className="relative flex flex-row">
             <button className="flex flex-row items-center gap-2 text-gray-600 hover:bg-blue-300 duration-150 transition-all md:border-l border-none border-gray-600 px-2 py-1 shadow-sm bg-white rounded">
               <BsCart3 size={20} className="md:text-blue-200 text-blue-600" />
               <span className="md:flex hidden">cart</span>
@@ -55,7 +55,7 @@ export default function Navbar() {
                 {getTotalCartItems()}
               </span>
             </button>
-          </Link>
+          </HashLink>
         </div>
       </div>
 

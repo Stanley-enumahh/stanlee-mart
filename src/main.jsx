@@ -7,7 +7,7 @@ import { ShopContextProvider } from "./context/shopContext";
 import Cart from "./components/cart";
 import Login from "./components/registration/login";
 import Register from "./components/registration/signUp";
-import { Authprovider } from "./context/Authcontext/authContext";
+import { ProductPreview } from "./components/productPreview";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <Register />,
+  },
+  {
+    path: "/Product-Preview",
+    element: <ProductPreview />,
   },
 ]);
 

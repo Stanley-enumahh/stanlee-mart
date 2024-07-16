@@ -42,12 +42,12 @@ export default function Phones() {
   };
 
   return (
-    <div id="smart-phones" className=" w-[90%] m-auto h-[350px] md:mt-20 mt-10">
+    <div id="smart-phones" className=" w-[90%] m-auto h-[500px] md:mt-20 mt-10">
       <h1 className="mb-6 pb-2 font-bold md:text-lg text-sm border-b-2 border-blue-300 w-fit">
         Grab the best deal on{" "}
         <span className="text-blue-500">smart gadgets</span>
       </h1>
-      <div className="w-full h-full">
+      <div className="w-full h-[450px] relative">
         <Slider {...settings}>
           {PhoneData.map((PhoneData, index) => {
             if (PhoneData.category == "Phones") {
@@ -58,6 +58,7 @@ export default function Phones() {
                   price={PhoneData.price}
                   category={PhoneData.category}
                   itemId={PhoneData.id}
+                  description={PhoneData.description}
                   key={index}
                 />
               );

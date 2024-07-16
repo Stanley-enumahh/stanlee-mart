@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import { Navigate, Link } from "react-router-dom";
-import {
-  doSignInWithEmailAndPassword,
-  doSignInWithGoogle,
-} from "../../firebase/auth";
-import { useAuth } from "../../context/Authcontext/authContext";
+import { Navigate, Link } from "react-router-dom"
 
 const Login = () => {
   const { userLoggedIn } = useAuth();

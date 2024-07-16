@@ -6,11 +6,17 @@ import Phones from "../components/Phones";
 import Fashion from "../components/fashion";
 import { Link } from "react-scroll";
 import { IoArrowUp } from "react-icons/io5";
+import { useContext } from "react";
+import { ShopContext } from "../context/shopContext";
+import { MdOutlineCancel } from "react-icons/md";
+import PhoneDetails from "./PhoneDetails";
+import { PhoneData } from "./products";
 
-export default function Homepage() {
+export default function Homepage(props) {
   const handleSetActive = (to) => {};
+
   return (
-    <div className="overflow-hidden w-full flex flex-col justify-center items-center relative">
+    <div className=" overflow-hidden w-full flex flex-col justify-center items-center relative">
       <Navbar />
       <Hero />
       <Phones />

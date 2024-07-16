@@ -6,9 +6,15 @@ export default function PhoneDetails(props) {
   const { addToCart, cartItems } = useContext(ShopContext);
 
   const cartItemAmount = cartItems[props.itemId];
+
   return (
-    <div className="flex text-black w-[100%] relative justify-center">
-      <div className="flex flex-col justify-center items-center md:w-[220px] w-[260px] md:h-[270px] h-[300px] border rounded-lg bg-slate-100 cursor-pointer gap-2 hover:border hover:border-blue-400 hover:shadow-lg transition-all duration-150 p-2">
+    <div className="flex relative text-black w-full h-[400px] justify-center">
+      <div
+        className="flex flex-col justify-center
+        items-center md:w-[220px] w-[260px] md:h-[270px] h-[300px] border
+        rounded-lg bg-slate-100 cursor-pointer gap-2 hover:border
+        hover:border-blue-400 hover:shadow-lg transition-all duration-150 p-2"
+      >
         <div className="md:h-[70%] h-[60%]">
           <img
             src={props.img}

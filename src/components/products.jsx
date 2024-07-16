@@ -20,6 +20,8 @@ export const PhoneData = [
     name: "Iphone 11 promax",
     price: 999.0,
     category: "Phones",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 1,
   },
   {
@@ -27,6 +29,8 @@ export const PhoneData = [
     name: "JBL",
     price: 220.0,
     category: "Phones",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 2,
   },
   {
@@ -34,6 +38,8 @@ export const PhoneData = [
     name: "hp laptop",
     price: 2500.0,
     category: "Phones",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 3,
   },
   {
@@ -41,6 +47,8 @@ export const PhoneData = [
     name: "HD camera",
     price: 750.0,
     category: "Phones",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 4,
   },
   {
@@ -48,6 +56,8 @@ export const PhoneData = [
     name: "PS5 controller",
     price: 520.0,
     category: "Phones",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 5,
   },
   {
@@ -55,6 +65,8 @@ export const PhoneData = [
     name: "smart watch lit",
     price: 1000.0,
     category: "Phones",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 6,
   },
   {
@@ -62,6 +74,8 @@ export const PhoneData = [
     name: "smart watch lit",
     price: 1200.0,
     category: "Phones",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 7,
   },
   {
@@ -69,6 +83,8 @@ export const PhoneData = [
     name: "Itel A32",
     price: 150.0,
     category: "Phones",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 8,
   },
   {
@@ -76,6 +92,8 @@ export const PhoneData = [
     name: "Nike shoes",
     price: 35.0,
     category: "fashion",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 9,
   },
   {
@@ -83,6 +101,8 @@ export const PhoneData = [
     name: "black T-shirt",
     price: 150.0,
     category: "fashion",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 10,
   },
   {
@@ -90,6 +110,8 @@ export const PhoneData = [
     name: "white shirt",
     price: 40.0,
     category: "fashion",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 11,
   },
   {
@@ -97,6 +119,8 @@ export const PhoneData = [
     name: "brown suit",
     price: 2500.0,
     category: "fashion",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 12,
   },
   {
@@ -104,6 +128,8 @@ export const PhoneData = [
     name: "black suit",
     price: 220.0,
     category: "fashion",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 13,
   },
   {
@@ -111,6 +137,8 @@ export const PhoneData = [
     name: "glass",
     price: 100.0,
     category: "fashion",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 14,
   },
   {
@@ -118,6 +146,8 @@ export const PhoneData = [
     name: "jeans",
     price: 108.0,
     category: "fashion",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores quae eius saepe magni expedita soluta nulla optio doloribus labore.",
     id: 15,
   },
 ];
