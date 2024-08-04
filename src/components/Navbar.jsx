@@ -11,16 +11,17 @@ import { HashLink } from "react-router-hash-link";
 export default function Navbar() {
   const [Drop, setDrop] = useState(false);
   const { getTotalCartItems } = useContext(ShopContext);
+  const toggleDrop = () => {
+    setDrop(!Drop);
+  };
   // Function to handle the activation of a link.
   const handleSetActive = (to) => {};
 
   return (
-    <div className="z-50 backdrop-blur fixed top-0 flex flex-row justify-between md:w-[85%] w-[90%] mt-3">
+    <div className="z-50 backdrop-blur fixed top-0 flex flex-row justify-between md:w-[90%] w-[90%] mt-3">
       <div className="flex flex-row md:gap-2 gap-1 items-center text-blue-600">
         <HiBars3BottomLeft
-          onClick={() => {
-            setDrop(!Drop);
-          }}
+          onClick={toggleDrop}
           className=" md:text-3xl text-2xl p-1 bg-blue-100 rounded hover:bg-blue-300 transition-all duration-150 cursor-pointer"
         />
         <h1 className="font-bold md:text-lg  select-none bg-white px-3 py-1 rounded">
@@ -65,11 +66,9 @@ export default function Navbar() {
         }`}
       >
         <ul className="select-none flex flex-col md:gap-6 gap-4 w-full z-50">
-          <li className="flex hover:text-blue-400 duration-150 transition-all">
+          <li className="flex cursor-pointer hover:text-blue-400 duration-150 transition-all">
             <Link
-              onClick={() => {
-                setDrop(!Drop);
-              }}
+              onClick={toggleDrop}
               activeClass="active"
               to="smart-phones"
               spy={true}
@@ -81,11 +80,9 @@ export default function Navbar() {
               smart phones
             </Link>
           </li>
-          <li className="hover:text-blue-400 duration-150 transition-all ">
+          <li className="hover:text-blue-400 cursor-pointer duration-150 transition-all ">
             <Link
-              onClick={() => {
-                setDrop(!Drop);
-              }}
+              onClick={toggleDrop}
               activeClass="active"
               to="fashion"
               spy={true}
@@ -97,26 +94,18 @@ export default function Navbar() {
               Men's fashion
             </Link>
           </li>
-          <li className="md:hidden flex hover:text-blue-400 duration-150 transition-all ">
-            <Link
-              onClick={() => {
-                setDrop(!Drop);
-              }}
-            >
-              Search
-            </Link>
+          <li className="md:hidden flex cursor-pointer hover:text-blue-400 duration-150 transition-all ">
+            <Link onClick={toggleDrop}>Search</Link>
           </li>
-          <li className="md:hidden flex hover:text-blue-400 duration-150 transition-all ">
+          <li className="md:hidden cursor-pointer flex hover:text-blue-400 duration-150 transition-all ">
             <Link>sign Up/sign In</Link>
           </li>
-          <li className="hover:text-blue-400 duration-150 transition-all ">
+          <li className="hover:text-blue-400 cursor-pointer duration-150 transition-all ">
             <Link>Account</Link>
           </li>
-          <li className="hover:text-blue-400 duration-150 transition-all">
+          <li className="hover:text-blue-400 cursor-pointer duration-150 transition-all">
             <Link
-              onClick={() => {
-                setDrop(!Drop);
-              }}
+              onClick={toggleDrop}
               activeClass="active"
               to="footer"
               spy={true}

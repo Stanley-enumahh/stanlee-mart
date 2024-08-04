@@ -7,9 +7,9 @@ export const Footer = () => {
   return (
     <div
       id="footer"
-      className="flex flex-col w-full items-center bg-[#34435e] justify-center text-white"
+      className="flex flex-col w-full items-center p-12 bg-[#34435e] justify-center text-white"
     >
-      <div className=" text-sm md:w-[70%] w-[90%] border- md:py-8 py-5 flex flex-row justify-between">
+      <div className=" text-sm md:w-[80%] w-[90%]  md:py-8 py-5 flex flex-row justify-between">
         <p className="md:text-sm text-xs">
           Stay connected with us on social media
         </p>
@@ -37,7 +37,7 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <div className="flex md:flex-row flex-col md:gap-0 gap-2 md:w-[70%] w-[90%] justify-between text-white">
+      <div className="flex md:flex-row flex-col md:gap-0 gap-2 md:w-[80%] w-[90%] justify-between text-white">
         <h1 className=" md:text-lg text-sm font-bold">
           Subscribe to our newsletter
         </h1>
@@ -53,7 +53,7 @@ export const Footer = () => {
         </form>
       </div>
 
-      <div className="grid md:grid-cols-3 grid-row-3 md:w-[70%] w-[90%] text-sm mb-10 md:gap-10 gap-5 md:mt-4 mt-2">
+      <div className="grid md:grid-cols-3 grid-row-3 md:w-[80%] w-[90%] text-sm mb-10 md:gap-10 gap-5 md:mt-4 mt-2">
         <div className="flex flex-col gap-4">
           <h1 className="border-b border-blue-400 py-2 font-bold">S-MART</h1>
           <p>
